@@ -1,0 +1,250 @@
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-image: url(Images/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg);
+}
+header {
+    background-color: #007bff;
+    background-image: url(Images/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg);
+
+}
+.name
+{
+    font-size: 7rem;
+    font-family: Cormorant Garamond, serif;
+    font-weight: 300;
+    color: black;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+#projects {
+    background-color: #f8f9fa;
+    background-image: url(Images/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg);
+   
+}
+.card {
+    border: none;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+.title-demo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#contact {
+    background-color: #faf8f9;
+}
+p.footer {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Cormorant Garamond, serif;
+    
+}
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.text-center {
+    text-align: center;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.btn-primary:focus {
+    box-shadow: none;
+}
+.text-white {
+    color: #ffffff !important;
+}
+#projects {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+#about {
+    padding: 60px 0;
+}
+#contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+
+.github-logo{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+   
+}
+.phone-button{
+    background-color: transparent;
+    border: none;
+}
+
+.header-animation {
+    animation: fadeInOut 5s infinite;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+          opacity: 0;
+    }
+
+    20%,
+    80% {
+          opacity: 1;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .designation {
+          font-size: 16px;
+    }
+
+}
+#nav{
+    padding: 16px 12px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.my-photo{
+    height: 120px;
+    width: 120px;
+    border-radius: 70px;
+    align-self: flex-end;
+}
+.about-card{
+    display: flex;
+
+}
+
+.col-md
+{
+    width: 20px;
+    height: 50px;
+}
+
+.contact
+{
+    background-color: rgb(78, 86, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 3.5rem 0px 1.2rem;
+}
+.footer-sub
+{
+    font-family:  Montserrat, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.linked
+{
+    background-color: white;
+}
+
+.projects
+{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.row
+{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.style-skills
+{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2.5fr 0.5fr;
+    gap: 40px;
+    padding: 0px 250px 20px 50px;
+}
+
+list
+{
+    list-style-type: square;
+   
+}
+
+.skills-list
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 500px;
+}
+.des-about
+{
+    font-family:  Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #575470;
+}
